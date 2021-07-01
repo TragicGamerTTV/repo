@@ -1,4 +1,5 @@
 ## RedX's Repo!
+* (https://tragicgamerttv.github.io/repo
 * Help by Zemyoro #shamelessplug (delete after lol)
 
 each time you put a deb in the debs folder, make sure to update the Packages file.
