@@ -1,0 +1,38 @@
+Package: com.yourname.yourtweakname
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: YourName <youremail>
+Installed-Size: 0
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.yourname.yourtweakname_0.1-1+debug_iphoneos-arm.deb
+Size: 0
+MD5sum: FileMD5SUm
+SHA1: FileSHA1
+SHA256: FileSHA256
+Section: Tweaks
+Description: An awesome substrate tweak!
+Author: YourName <youremail>
+Depiction: depictionurl
+Icon: yourtweakiconURL
+Name: YourTweakName
+Sileodepiction: sileodepictionurl
+
+example below: (delete)
+Package: com.zemyoro.cheesecake
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Zemyoro <zemyorotweaks@gmail.com>
+Installed-Size: 69420
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.zemyoro.cheesecake_1.0.deb
+Size: 420
+MD5sum: 3dbd443b34fe9ee1b58aa60056ce8ce2
+SHA1: ce19e15d50dc4cadbcf5643cf4c57210882e6027
+SHA256: c27ef6463538af1d3a9acfb5914733fd5a5a6f5177436269ab6ed77d56659c50
+Section: Tweaks
+Description: A beautiful theme!
+Author: Zemyoro
+Depiction: 
+Icon: 
+Name: Cheese Cake
+Sileodepiction:
