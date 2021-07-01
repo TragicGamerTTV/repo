@@ -1,72 +1,114 @@
 ## RedX's Repo!
 * (https://tragicgamerttv.github.io/repo
 
-
-
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
+	<head>
+		<title>Favware</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="format-detection" content="telephone=no">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
 
-<head>
-    <meta charset="utf-8">
-    <title>见风致</title>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
-    <!-- 设置网页图标 -->
-    <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="apple-touch-icon" href="img/favicon.png">
-    <!-- 导入CSS样式 -->
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="css/ios7.css">
-    <link rel="stylesheet" href="css/my.css">
-    <!-- 导入js脚本 -->
-    <script type="text/javascript" src="js/ios7.js"></script>
-</head>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/darkly/bootstrap.min.css" >
+		<link rel="stylesheet" href="assets/design.css">
 
-<body>
-    <header>
-        <h1>JFZ's repo</h1>
-        <a href="https://jfzcydia.github.io/"><i id="homelink" class="fa fa-home"></i></a>
-    </header>
-    <main id="content">
-        <div id="welcome">
-            <img src="img/favicon.png" alt="" id="logo">
-            <h4>欢迎使用见风致的个人源</h4>
-        </div>
-        <section class="block">
-            <ul>
-                <li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://jfzcydia.github.io/" role="button">添加到Cydia</a></li>
-                <li><a href="#" target="_blank" role="button">保存SHSH2</a></li>
-                <li><a href="#" target="_blank" role="button">屏蔽升级的描述文件</a></li>
-            </ul>
-        </section>
-        <section class="block">
-            <ul>
-                <li>
-                    <p>Test<a href="depiction/?p=test">详情</a></p>
-                </li>                <li>
-                    <p>Old<a href="depiction/?p=oldpackage">详情</a></p>
-                </li>
-                <li>
-                    <p>New<a href="depiction/?p=newpackage">详情</a></p>
-                </li>
-                <li>
-                    <p>Tage<a href="depiction/?p=tage">详情</a></p>
-                </li>
-                <li>
-                    <p>EXkeyboard<a href="depiction/?p=exkeyboard">详情</a></p>
-                </li>
-                <li>
-                    <p>NCtabcolor<a href="depiction/?p=nctabcolor">详情</a></p>
-                </li>
-        </section>
-        <section id="contact" class="block">
-            <p role="footer">&copy 2019 见风致</p>
-            <p>
-                <a href="https://github.com/lichongjia"><i class="fa fa-github"></i>GitHub</a>
-                <a href="https://twitter.com/lichongjia"><i class="fa fa-twitter"></i>@lichongjia</a>
-                <a href="https://weibo.com/lichongjia"><i class="fa fa-weibo"></i>新浪微博</a>
-            </p>
-        </section>
-    </main>
-</body>
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+		<link rel="manifest" href="assets/favicons/site.webmanifest">
+		<link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#3ac186">
+		<link rel="shortcut icon" href="assets/favicons/favicon.ico">
+		<meta name="apple-mobile-web-app-title" content="Favware">
+		<meta name="application-name" content="Favware">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
 
+		<meta name="robots" content="archive,follow,imageindex,index,odp,snippet,translate" />
+		<meta name="author" content="Jeroen Claassens, support@favware.tech" />
+		<meta name="reply-to" content="support@favware.tech" />
+		<meta name="target" content="all" />
+		<meta name="audience" content="all" />
+		<meta name="coverage" content="Worldwide" />
+		<meta name="distribution" content="Global" />
+		<meta name="rating" content="safe for kids" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="HandheldFriendly" content="True" />
+	</head>
+
+	<body>
+		<div class="container">
+			<h1><img src="CydiaIcon.png" height="57"> Favware</h1>
+		</div>
+
+		<div class="container">
+			<div class="card">
+				<div class="card-body">
+				<p><span class="text-primary"></span>Favware</span> - small cydia repo for Favna's warez</p>
+				<a class="btn btn-block btn-primary" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://favna.github.io/cydia/">Beam repo into Cydia</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<h3 class="display-5">Featured Packages</h3>
+		</div>
+
+		<div class="container">
+			<div class="card">
+				<div class="card-header">Lotus Dark Extra 13</div>
+				<div class="card-body">
+					<div class="row">
+						<div class="col-12 depiction-text-padding">
+								Even more icons for <a href="https://repo.packix.com/package/com.navidmx.lotusdark/">Lotus Dark</a>
+						</div>
+						<div class="col-12">
+							<a href="depictions/?p=com.favware.lotusdarkextra13">
+								<button class="btn btn-sm btn-block btn-primary">More info</button>
+							</a>
+						</div>
+					</div>		
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header">Lotus Dark Extra</div>
+				<div class="card-body">
+					<div class="row">
+						<div class="col-12 depiction-text-padding">
+								Extra Icons for <a href="https://repo.packix.com/package/com.navidmx.lotusdark/">Lotus Dark</a>
+						</div>
+						<div class="col-12">
+							<a href="depictions/?p=com.favware.lotusdarkextra">
+								<button class="btn btn-sm btn-block btn-primary">More info</button>
+							</a>
+						</div>
+					</div>		
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header">Lotus Dark Settings VPN Icon</div>
+				<div class="card-body">
+					<div class="row">
+						<div class="col-12 depiction-text-padding">
+							VPN Icon for Preferences app for <a href="https://repo.packix.com/package/com.navidmx.lotusdark/">Lotus Dark</a>
+						</div>
+						<div class="col-12">
+							<a href="depictions/?p=com.favware.lotusdarksettingsvpnicon">
+								<button class="btn btn-sm btn-block btn-primary">More info</button>
+							</a>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
